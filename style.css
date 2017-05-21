@@ -1,16 +1,20 @@
-*{
-  outline: 2px orange dotted;
-}
 header {
-  width: 960px;
+  width: 900px;
   height: 120px;
   margin: 0 auto;
 }
-.headercontainer {
+.leftheadercontainer {
   position: relative;
-  width: 900px;
+  float: left;
+  width: 450px;
   height: 120px;
   margin: 0px auto;
+}
+.rightheadercontainer {
+  position: relative;
+  float: left;
+  width: 450px;
+  height: 120px;
 }
 .headerlowerborder {
   position: absolute;
@@ -18,28 +22,70 @@ header {
   height: 10px;
   bottom: 0;
 }
-.headercontainer > img {
+.leftheadercontainer > img {
+  float: left;
   width: 40px;
   height: 40px;
-}
-.headercontainer img {
-  float: left;
   margin-top: 30px;
 }
-h1 {
+.rightheadercontainer img {
   float: left;
+  margin-top: 30px;
+  margin-right: 2px;
+}
+.rightheadercontainer ul:last-child > li:first-child > img {
+  margin-left: 8px;
+}
+h1 {
   font-family: yellowtail;
   font-size: 30px;
   margin-top: 30px;
+  margin-left: 50px;
 }
 h2 {
   float: left;
   font-family: roboto;
   font-size: 10px;
+  margin-left: 10px;
+}
+.rightheadercontainer ul{
+  margin-left: 200px;
+  margin-top: 5px;
 }
 main {
   width: 900px;
   margin: 0px auto;
+}
+h3 {
+  font-family: roboto;
+  font-size: 36px;
+  margin-top: 60px;
+}
+main > div {
+  position: relative;
+  display: block;
+}
+.posted {
+  float: left;
+  font-size: 12px;
+  color: grey;
+  opacity: 0.5;
+}
+.print {
+  position: absolute;
+  right: 0;
+  font-size: 12px;
+  color: grey;
+  opacity: 0.5;
+}
+.heroimage {
+  margin-top: 60px;
+}
+main p {
+  text-indent: 30px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: Noticia+Text;
 }
 footer {
   width: 900px;
