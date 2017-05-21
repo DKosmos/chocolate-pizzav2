@@ -87,7 +87,53 @@ main p {
   font-size: 20px;
   font-family: Noticia+Text;
 }
+.recipe {
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-image: url("assets/list-bg.png");
+}
+.recipe div {
+  float: left;
+  width: 450px;
+}
+.submissioncontent {
+  height: 100px;
+  width: 900px;
+  position: relative;
+  float: left;
+  font-family: Noticia+Text;
+}
+.submissioncontent img {
+  float: left;
+}
+.submissioncontent h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 25px;
+}
+.submissioncontent p {
+  display: inline;
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 16px;
+}
+.submissioncontent button {
+  position: absolute;
+  right: 0;
+  background-color: #BA745C;
+  border: none;
+  width: 190px;
+  height: 54px;
+  color: white;
+  font-size: 18px;
+}
+.floatclear {
+  clear: both;
+}
 footer {
+  height: 200px;
   width: 900px;
   margin: 0px auto;
+  text-align: center;
 }
